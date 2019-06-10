@@ -1,0 +1,281 @@
+@import 'variables';
+@import 'mixins';
+
+.container-fluid{
+    padding:0;
+}
+
+ /*
+     HOMEPAGE
+ */
+
+ /*
+ Title
+ */
+.page-title{
+    margin-top:80px;
+    h1{
+        width:80%;
+        margin-left:10%;
+        text-align: center;
+    }
+    p{
+        margin-top:40px;
+        text-align: center;
+    }
+}
+
+/*
+SCREENSHOT ROW
+*/
+.screenshot{
+    margin-top:80px;
+    margin-bottom: 50x;
+    @include mobile{
+        margin-top:40px;
+    }
+}
+.screenshot-img{
+    @include mobile{
+        margin-top:40px;
+    }
+}
+.left-txt{
+    margin-top:150px;
+    p{
+        margin-top:30px;
+        margin-right:10%;
+    }
+    button{
+        margin-top:30px;
+    }
+    @include mobile{
+        margin-top:40px;
+    }
+}
+
+/*
+FEATURE ROW
+*/
+.features-left{
+    margin-top:400px;
+    @include mobile{
+        margin-top:60px;
+    }
+}
+.features-right{
+    margin-top:200px;
+    @include mobile{
+        margin-top:70px;
+    }
+}
+.features-home{
+    margin-bottom:80px;
+    img{
+        margin-bottom: 25px;
+    }
+    h2{
+       margin-bottom: 25px;
+    }
+    @include mobile{
+        margin-bottom:40px;
+    }
+}
+.features-home-1{
+    float:left;
+}
+.features-home-2{
+    float:right;
+}
+.features-home-3{
+    float:left;
+}
+.features-home-4{
+    float:right;
+}
+/*
+PRICING ROW
+*/
+.pricing-left{
+    margin-top:300px;
+    @include mobile{
+        margin-top:50px;
+    }
+}
+.pricing-right{
+    margin-top:100px;
+    margin-bottom:100px;
+    @include mobile{
+        margin-bottom:50px;
+    }
+}
+
+.buyaccbox-left{
+    float:left;
+    left:5%;
+    @include mobile{
+        float:none;
+    }
+
+}
+.buyaccbox-right{
+    float:right;
+    @include mobile{
+        float:none;
+    }
+}
+/*
+HOME END
+*/
+.ending-txt{
+    margin-top:200px;
+    p {
+        margin-top:30px;
+        text-align: left;
+    }
+    @include mobile{
+        margin-top:50px;
+    }
+
+}
+.ending-img{
+    margin-top:100px;
+    margin-bottom:80px;
+}
+
+/*
+
+  FEATURES PAGE
+
+*/
+.left-txt{
+    img{
+        margin-bottom:20px;
+    }
+}
+//SCREENSHOT AREA
+.screenshots{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:150px;
+    @include mobile{
+        margin-bottom:40px;
+    }
+}
+.screenshot-txt-feature{
+    margin-top:120px;
+}
+.screenshot-txt-2{
+    order:2;
+    @include mobile{
+        order:1;
+    }
+}
+.screenshot-img-2{
+    order:1;
+    @include mobile{
+        order:2;
+    }
+}
+//FEATURES AREA
+.featured-wrap {
+    margin-top:100px;
+}
+.featured-features{
+    margin-top:50px;
+    img{
+        margin-bottom:20px;
+    }
+}
+.featured-pricing{
+    margin-top:80px;
+}
+/*
+PRICING PAGE
+*/
+.pricing-center{
+    margin-top:80px;
+    margin-bottom:120px;
+}
+.checkbox-wrapper{
+    margin-top:80px;
+    @include mobile{
+        display:flex;
+        padding-left:0;
+    }
+}
+.checkbox-txt{
+    float:left;
+    text-align: right;
+    margin-top:60px;
+    padding-right:80px;
+    border-right: 2px solid black;
+    p{
+        height:53px;
+    }
+    @include mobile{
+        padding:0;
+        border:none;
+        position:absolute;
+        text-align: center;
+        margin-top:50px;
+        p{
+            height:75px;
+        }
+    }
+}
+.checkbox-img{
+    float:left;
+    text-align: center;
+    h2{
+        margin-left:20px;
+    }
+    ul{
+        margin-top:20px;
+        li{
+            height:70px;
+        }
+    }
+    @include mobile{
+        padding:0;
+        ul{
+            margin-top:50px;
+            li{
+                margin-top:20px;
+            }
+        }
+    }
+
+}
+
+.checkbox-price{
+        text-align: center;
+        margin-bottom:100px;
+        button{
+            margin-top:30px;
+        }
+        @include mobile{
+            padding:0;
+        }
+}
+.basic-price{
+    @include mobile{
+        width:40%;
+        padding:0;
+        float:left;
+        left:10%;
+    }
+}
+.premium-price{
+    @include mobile{
+        padding:0;
+        left:5%;
+    }
+}
+.price-ending{
+    margin-top:120px;
+}
+.pricing-end-row{
+    margin-top:60px;
+
+}

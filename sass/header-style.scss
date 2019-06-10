@@ -1,0 +1,104 @@
+@import 'variables';
+@import 'mixins';
+
+header{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:80px;
+    background-color: $primary;
+    @include mobile{
+        height:auto;
+    }
+}
+.nav-mobile-btn{
+    display:none;
+    @include mobile{
+        display:block;
+        width:100%;
+        height:40px;
+        background-color: $mob-background;
+        border:none;
+    }
+}
+.header-logo{
+    padding:0;
+
+    p{
+        float:left;
+        font-size:28px;
+        color:$nav-text;
+        margin-top:15px;
+        margin-left:10px;
+    }
+    @include mobile{
+        order:2;
+    }
+}
+.header-logo-pic{
+    float:left;
+    margin-top:20px;
+    height:35px;
+    width:35px;
+    
+    img{
+        max-width: 100%;
+        height:100%;
+    }
+    @include mobile{
+        margin-left:30%;
+    }
+}
+
+.nav-main{
+    padding:0;
+    margin-top:10px;
+    @include mobile{
+        order:1;
+        margin-top:0;
+        display:none;
+     }
+    }
+.nav-main1{
+        padding:0;
+        margin-top:10px;
+        @include mobile{
+            order:1;
+            margin-top:0;
+            display:block;
+         }
+        }
+   
+.main-nav-list{
+    ul{
+        padding:0;
+        li{
+            display:inline-block;
+            width:25%;
+            float:left;
+            text-align: right;
+            a{
+                color:$nav-text;
+                font-size:18;
+
+            }
+        }
+    }
+    @include mobile{
+        ul{
+            margin:0;
+            width:100%;
+            li{
+                background-color: $nav-hover;
+                display:block;
+                height:45px;
+                line-height: 40px;
+                width:100%;
+                text-align: center;
+                a{
+                    padding-top:2px;
+                }
+            }
+        }
+    }
+}

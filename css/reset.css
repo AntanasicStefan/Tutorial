@@ -1,0 +1,16 @@
+html,
+body {
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+  html ul,
+  body ul {
+    list-style: none; }
+    html ul li a,
+    body ul li a {
+      text-decoration: none; }
+    html ul li a:hover,
+    body ul li a:hover {
+      text-decoration: none; }
+
+/*# sourceMappingURL=reset.css.map */

@@ -1,0 +1,31 @@
+/*
+Colors
+*/
+/*
+    HOMEPAGE
+*/
+.home-title {
+  margin-top: 80px; }
+  .home-title h1 {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center; }
+  .home-title p {
+    margin-top: 40px;
+    text-align: center; }
+
+.screenshot {
+  margin-top: 80px;
+  margin-bottom: 50x; }
+
+.screenshot-txt {
+  margin-top: 150px; }
+  .screenshot-txt p {
+    margin-top: 30px;
+    margin-right: 10%; }
+
+.screenshot-img img {
+  width: 800px;
+  height: 500px; }
+
+/*# sourceMappingURL=content-style.css.map */

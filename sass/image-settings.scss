@@ -1,0 +1,71 @@
+@import 'variables';
+@import 'mixins';
+
+//HOMEPAGE
+
+//SCREENSHOT ROW
+.screenshot-img{
+    img{
+        max-width:100%;
+        max-height: 100%;
+        width:800px;
+        height:500px;
+        @include mobile{
+            width:auto;
+            height:auto;
+        }
+    }
+}
+//FEATURE ROW
+
+.features-home{
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        width:80px;
+        height:80px;
+    }
+}
+//HOME END
+.ending-img{
+    img{
+    max-width:100%;
+    max-height:100%;
+    width:350px;
+    height:400px;
+    }
+    @include mobile{
+        img{
+            width:auto;
+        }
+    }
+}
+//FEATURES PAGE
+
+.left-txt{
+    img{
+        max-height: 50px;
+        max-width:50px;
+        height:50px;
+        width:50px;
+    }
+}
+
+//FEATURE FEATURES
+.featured-features{
+    img{
+        width:60px;
+        height:60px;
+    }
+}
+
+//PRICING PAGE
+
+.checkbox-img{
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        width:25px;
+        height:25px;
+    }
+}

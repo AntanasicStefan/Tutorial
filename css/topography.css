@@ -1,0 +1,37 @@
+/*
+Colors
+*/
+html body {
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif; }
+  html body p {
+    opacity: 0.5;
+    color: #2a1c32;
+    font-size: 18px;
+    font-weight: 500; }
+
+/*
+   HEADER NAVIGATION
+*/
+.main-nav-list ul li a {
+  color: #e6e6e6;
+  font-size: 18px;
+  font-weight: 500; }
+
+/*
+   FOOTER NAVIGATION
+*/
+.footer-logo p {
+  color: #e6e6e6;
+  font-size: 18px;
+  font-weight: 600; }
+
+.footer-navigation-items h5 {
+  color: #e6e6e6;
+  font-weight: 700; }
+
+.footer-nav-list ul li a {
+  color: #e6e6e6;
+  font-size: 18px;
+  font-weight: 500; }
+
+/*# sourceMappingURL=topography.css.map */

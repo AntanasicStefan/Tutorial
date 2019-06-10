@@ -1,0 +1,248 @@
+/*
+Colors
+*/
+.container-fluid {
+  padding: 0; }
+
+/*
+    HOMEPAGE
+*/
+/*
+Title
+*/
+.page-title {
+  margin-top: 80px; }
+  .page-title h1 {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center; }
+  .page-title p {
+    margin-top: 40px;
+    text-align: center; }
+
+/*
+SCREENSHOT ROW
+*/
+.screenshot {
+  margin-top: 80px;
+  margin-bottom: 50x; }
+  @media (max-width: 768px) {
+    .screenshot {
+      margin-top: 40px; } }
+
+@media (max-width: 768px) {
+  .screenshot-img {
+    margin-top: 40px; } }
+
+.left-txt {
+  margin-top: 150px; }
+  .left-txt p {
+    margin-top: 30px;
+    margin-right: 10%; }
+  .left-txt button {
+    margin-top: 30px; }
+  @media (max-width: 768px) {
+    .left-txt {
+      margin-top: 40px; } }
+
+/*
+FEATURE ROW
+*/
+.features-left {
+  margin-top: 400px; }
+  @media (max-width: 768px) {
+    .features-left {
+      margin-top: 60px; } }
+
+.features-right {
+  margin-top: 200px; }
+  @media (max-width: 768px) {
+    .features-right {
+      margin-top: 70px; } }
+
+.features-home {
+  margin-bottom: 80px; }
+  .features-home img {
+    margin-bottom: 25px; }
+  .features-home h2 {
+    margin-bottom: 25px; }
+  @media (max-width: 768px) {
+    .features-home {
+      margin-bottom: 40px; } }
+
+.features-home-1 {
+  float: left; }
+
+.features-home-2 {
+  float: right; }
+
+.features-home-3 {
+  float: left; }
+
+.features-home-4 {
+  float: right; }
+
+/*
+PRICING ROW
+*/
+.pricing-left {
+  margin-top: 300px; }
+  @media (max-width: 768px) {
+    .pricing-left {
+      margin-top: 50px; } }
+
+.pricing-right {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  @media (max-width: 768px) {
+    .pricing-right {
+      margin-bottom: 50px; } }
+
+.buyaccbox-left {
+  float: left;
+  left: 5%; }
+  @media (max-width: 768px) {
+    .buyaccbox-left {
+      float: none; } }
+
+.buyaccbox-right {
+  float: right; }
+  @media (max-width: 768px) {
+    .buyaccbox-right {
+      float: none; } }
+
+/*
+HOME END
+*/
+.ending-txt {
+  margin-top: 200px; }
+  .ending-txt p {
+    margin-top: 30px;
+    text-align: left; }
+  @media (max-width: 768px) {
+    .ending-txt {
+      margin-top: 50px; } }
+
+.ending-img {
+  margin-top: 100px;
+  margin-bottom: 80px; }
+
+/*
+
+  FEATURES PAGE
+
+*/
+.left-txt img {
+  margin-bottom: 20px; }
+
+.screenshots {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 150px; }
+  @media (max-width: 768px) {
+    .screenshots {
+      margin-bottom: 40px; } }
+
+.screenshot-txt-feature {
+  margin-top: 120px; }
+
+.screenshot-txt-2 {
+  order: 2; }
+  @media (max-width: 768px) {
+    .screenshot-txt-2 {
+      order: 1; } }
+
+.screenshot-img-2 {
+  order: 1; }
+  @media (max-width: 768px) {
+    .screenshot-img-2 {
+      order: 2; } }
+
+.featured-wrap {
+  margin-top: 100px; }
+
+.featured-features {
+  margin-top: 50px; }
+  .featured-features img {
+    margin-bottom: 20px; }
+
+.featured-pricing {
+  margin-top: 80px; }
+
+/*
+PRICING PAGE
+*/
+.pricing-center {
+  margin-top: 80px;
+  margin-bottom: 120px; }
+
+.checkbox-wrapper {
+  margin-top: 80px; }
+  @media (max-width: 768px) {
+    .checkbox-wrapper {
+      display: flex;
+      padding-left: 0; } }
+
+.checkbox-txt {
+  float: left;
+  text-align: right;
+  margin-top: 60px;
+  padding-right: 80px;
+  border-right: 2px solid black; }
+  .checkbox-txt p {
+    height: 53px; }
+  @media (max-width: 768px) {
+    .checkbox-txt {
+      padding: 0;
+      border: none;
+      position: absolute;
+      text-align: center;
+      margin-top: 50px; }
+      .checkbox-txt p {
+        height: 75px; } }
+
+.checkbox-img {
+  float: left;
+  text-align: center; }
+  .checkbox-img h2 {
+    margin-left: 20px; }
+  .checkbox-img ul {
+    margin-top: 20px; }
+    .checkbox-img ul li {
+      height: 70px; }
+  @media (max-width: 768px) {
+    .checkbox-img {
+      padding: 0; }
+      .checkbox-img ul {
+        margin-top: 50px; }
+        .checkbox-img ul li {
+          margin-top: 20px; } }
+
+.checkbox-price {
+  text-align: center;
+  margin-bottom: 100px; }
+  .checkbox-price button {
+    margin-top: 30px; }
+  @media (max-width: 768px) {
+    .checkbox-price {
+      padding: 0; } }
+
+@media (max-width: 768px) {
+  .basic-price {
+    width: 40%;
+    padding: 0;
+    float: left;
+    left: 10%; } }
+
+@media (max-width: 768px) {
+  .premium-price {
+    padding: 0;
+    left: 5%; } }
+
+.price-ending {
+  margin-top: 120px; }
+
+.pricing-end-row {
+  margin-top: 60px; }
+
+/*# sourceMappingURL=content-structure.css.map */

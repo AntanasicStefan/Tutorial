@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACA,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAC,CAAC;EACR,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,KAAK;EACZ,gBAAgB,EAAE,KAAK;EACvB,gBAAgB,EAAE,KAAK;;AAE9B,QAAQ;EACA,KAAK,EAAC,GAAG;EACT,KAAK,EAAC,IAAI",
+"sources": ["foter-style.scss"],
+"names": [],
+"file": "foter-style.css"
+}

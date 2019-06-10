@@ -1,0 +1,37 @@
+/*
+Colors
+*/
+.buyaccbox {
+  width: 48%;
+  border: 4px;
+  border-style: solid;
+  border-radius: 5px; }
+  .buyaccbox h1 {
+    text-align: center;
+    margin-bottom: 70px; }
+  .buyaccbox h2 {
+    margin: 50px 80px;
+    text-align: center; }
+  .buyaccbox p {
+    text-align: center; }
+  .buyaccbox hr {
+    width: 60%;
+    left: 20%; }
+  .buyaccbox .btn-2 {
+    margin: 60px 110px 60px 115px; }
+    @media (max-width: 768px) {
+      .buyaccbox .btn-2 {
+        text-align: center;
+        margin: 20% 25%; } }
+  @media (max-width: 768px) {
+    .buyaccbox {
+      width: auto; } }
+
+.buyaccbox-left {
+  border-color: #b3b3b3; }
+  @media (max-width: 768px) {
+    .buyaccbox-left {
+      margin-bottom: 50px;
+      left: 0%; } }
+
+/*# sourceMappingURL=buyboxes.css.map */

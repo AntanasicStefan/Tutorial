@@ -1,0 +1,42 @@
+@import 'variables';
+@import 'mixins';
+
+.buyaccbox{
+    width:48%;
+    border:4px;
+    border-style: solid;
+    border-radius: 5px;
+    h1{
+        text-align: center;
+        margin-bottom:70px;
+    }
+    h2{
+        margin:50px 80px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    hr{
+        width:60%;
+        left:20%;
+    }
+    .btn-2{
+        margin:60px 110px 60px 115px;
+        @include mobile{
+            text-align: center;
+            margin:20% 25%;
+        }
+    }
+    @include mobile{
+        width:auto;
+    }
+}
+.buyaccbox-left{
+    border-color:lighten(black, 70%);
+    @include mobile{
+        margin-bottom:50px;
+        left:0%;
+    }
+
+}

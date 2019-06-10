@@ -1,0 +1,55 @@
+@import 'variables';
+html{
+    body{
+        font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+        p{
+            opacity: 0.5;
+            color:darken($btn1,40%);
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
+/*
+   HEADER NAVIGATION
+*/
+.main-nav-list{
+    ul{
+         li{
+              a{
+                color:$nav-text;
+                font-size:18px;
+                font-weight:500; 
+              }
+         }
+    }
+}
+
+/*
+   FOOTER NAVIGATION
+*/
+.footer-logo{
+    p{
+        color:$nav-text;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+.footer-navigation-items{
+    h5{
+        color:$nav-text;
+        font-weight:700; 
+
+    }
+}
+.footer-nav-list{
+    ul{
+        li{
+            a{
+                color:$nav-text;
+                font-size:18px;
+                font-weight:500;
+            }
+        }
+    }
+}
