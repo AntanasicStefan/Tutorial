@@ -259,6 +259,7 @@ PRICING PAGE
         }
 }
 .basic-price{
+    float:left;
     @include mobile{
         width:40%;
         padding:0;
@@ -267,9 +268,11 @@ PRICING PAGE
     }
 }
 .premium-price{
+    float:right;
     @include mobile{
         padding:0;
         left:5%;
+        float:none;
     }
 }
 .price-ending{

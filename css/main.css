@@ -464,17 +464,22 @@ PRICING PAGE
     .checkbox-price {
       padding: 0; } }
 
-@media (max-width: 768px) {
-  .basic-price {
-    width: 40%;
-    padding: 0;
-    float: left;
-    left: 10%; } }
+.basic-price {
+  float: left; }
+  @media (max-width: 768px) {
+    .basic-price {
+      width: 40%;
+      padding: 0;
+      float: left;
+      left: 10%; } }
 
-@media (max-width: 768px) {
-  .premium-price {
-    padding: 0;
-    left: 5%; } }
+.premium-price {
+  float: right; }
+  @media (max-width: 768px) {
+    .premium-price {
+      padding: 0;
+      left: 5%;
+      float: none; } }
 
 .price-ending {
   margin-top: 120px; }

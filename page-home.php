@@ -90,26 +90,11 @@ endif;
                 <button class="btn-1">View all</button>
          </div>
         <div class="pricing-right col-lg-8 col-xs-12">
-             <div class="buyaccbox-left buyaccbox  ">
-                <h2>Basic</h2>
-                <h1>$ 6.99</h1>
-                <p>Plugin updates</p>
-                <hr>
-                <p>Email support</p>
-                <hr>
-                <p>Unlimited sites</p>
-                <button class="btn-2">Purchase</button>
-             </div>
-             <div class="buyaccbox-right buyaccbox col-xs-12">
-                 <h2>Premium</h2>
-                 <h1>$ 29.99</h1>
-                 <p>Plugin updates</p>
-                 <hr>
-                 <p>Email support</p>
-                 <hr>
-                 <p>Unlimited sites</p>
-                 <button class="btn-2">Purchase</button>
-             </div>
+            <?php 
+            get_template_part('template-parts/buyboxes/leftbox');
+            get_template_part('template-parts/buyboxes/rightbox');
+            ?>
+             
         </div>
      </div>
            <div class="row end">
