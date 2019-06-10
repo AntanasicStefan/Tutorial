@@ -6,12 +6,9 @@
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
     </div>
     <div class="pricing-center offset-lg-1 col-lg-10">
-        <div class="col-lg-5  ">
-               <?php get_template_part('template-parts/buyboxes/leftbox'); ?>
-        </div>
-        <div class="col-lg-5">
-            <?php get_template_part('template-parts/buyboxes/rightbox'); ?>
-        </div>
+               <?php get_template_part('template-parts/buyboxes/leftbox-pricing'); ?>
+               <?php get_template_part('template-parts/buyboxes/rightbox-pricing'); ?>
+
     </div>
     <div class="page-title offset-lg-2 col-lg-8 col-xs-12">
         <h1>Lorem ipsum dolor sit amet</h1>
